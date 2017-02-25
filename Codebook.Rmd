@@ -43,69 +43,134 @@ ActivityName = Name of the activity performed by the subjects. List below.
 Features
 
 tbodyacc-mean-x | Mean time for acceleration of body for X
+
 tbodyacc-mean-y | Mean time for acceleration of body for Y
+
 tbodyacc-mean-z | Mean time for acceleration of body for Z
+
 tbodyacc-std-x | Std of time for acceleration of body for X 
-tbodyacc-std-y | Std of time for acceleration of body for Y 
+
+tbodyacc-std-y | Std of time for acceleration of body for Y
+
 tbodyacc-std-z | Std of time for acceleration of body for Z 
+
 tgravityacc-mean-x | Mean time of acceleration of gravity for X
+
 tgravityacc-mean-y | Mean time of acceleration of gravity for Y
+
 tgravityacc-mean-z | Mean time of acceleration of gravity for Z
+
 tgravityacc-std-x | Std of time of acceleration of gravity for X
+
 tgravityacc-std-y | Std of time of acceleration of gravity for Y
+
 tgravityacc-std-z | Std of time of acceleration of gravity for Z
+
 tbodyaccjerk-mean-x | Mean time of body acceleration jerk for X
+
 tbodyaccjerk-mean-y | Mean time of body acceleration jerk for Y
+
 tbodyaccjerk-mean-z | Mean time of body acceleration jerk for Z
+
 tbodyaccjerk-std-x | Std of time of body acceleration jerk for X
+
 tbodyaccjerk-std-y | Std of time of body acceleration jerk for Y
+
 tbodyaccjerk-std-z | Std of time of body acceleration jerk for Z
+
 tbodygyro-mean-x | Mean body gyroscope measurement for X
+
 tbodygyro-mean-y | Mean body gyroscope measurement for Y
+
 tbodygyro-mean-z | Mean body gyroscope measurement for Z
+
 tbodygyro-std-x | Std of body gyroscope measurement for X
+
 tbodygyro-std-y | Std of body gyroscope measurement for Y
+
 tbodygyro-std-z | Std of body gyroscope measurement for Z
+
 tbodygyrojerk-mean-x | Mean jerk signal of body for X
+
 tbodygyrojerk-mean-y | Mean jerk signal of body for Y
+
 tbodygyrojerk-mean-z | Mean jerk signal of body for Z
+
 tbodygyrojerk-std-x | Std of jerk signal of body for X
+
 tbodygyrojerk-std-y | Std of jerk signal of body for Y
+
 tbodygyrojerk-std-z | Std of jerk signal of body for Z
+
 tbodyaccmag-mean | Mean magnitude of body Acc
+
 tbodyaccmag-std | Std of magnitude of body Acc
+
 tgravityaccmag-mean | Mean gravity acceleration magnitude
+
 tgravityaccmag-std | Std of gravity acceleration magnitude
+
 tbodyaccjerkmag-mean | Mean magnitude of body acceleration jerk
+
 tbodyaccjerkmag-std | Std of magnitude of body acceleration jerk
+
 tbodygyromag-mean | Mean magnitude of body gyroscope measurement
+
 tbodygyromag-std | Std of magnitude of body gyroscope measurement
+
 tbodygyrojerkmag-mean | Mean magnitude of body body gyroscope jerk 
+
 tbodygyrojerkmag-std | Std of magnitude of body body gyroscope jerk 
+
 fbodyacc-mean-x | Mean frequency of body acceleration for X
+
 fbodyacc-mean-y | Mean frequency of body acceleration for Y
+
 fbodyacc-mean-z | Mean frequency of body acceleration for Z
+
 fbodyacc-std-x | Std of frequency of body acceleration for X
+
 fbodyacc-std-y | Std of frequency of body acceleration for Y
+
 fbodyacc-std-z | Std of frequency of body acceleration for Z
+
 fbodyaccjerk-mean-x | Mean frequency of body accerlation jerk for X 
+
 fbodyaccjerk-mean-y | Mean frequency of body accerlation jerk for Y 
+
 fbodyaccjerk-mean-z | Mean frequency of body accerlation jerk for Z 
+
 fbodyaccjerk-std-x | Std frequency of body accerlation jerk for X 
+
 fbodyaccjerk-std-y | Std frequency of body accerlation jerk for Y
+
 fbodyaccjerk-std-z | Std frequency of body accerlation jerk for Z 
+
 fbodygyro-mean-x | Mean frequency of body gyroscope measurement for X
+
 fbodygyro-mean-y | Mean frequency of body gyroscope measurement for Y
+
 fbodygyro-mean-z | Mean frequency of body gyroscope measurement for Z
+
 fbodygyro-std-x | Std frequency of body gyroscope measurement for X
+
 fbodygyro-std-y | Std frequency of body gyroscope measurement for Y
+
 fbodygyro-std-z | Stad frequency of body gyroscope measurement for Z
+
 fbodyaccmag-mean | Mean frequency of body acceleration magnitude
+
 fbodyaccmag-std | Std of frequency of body acceleration magnitude
+
 fbodybodyaccjerkmag-mean | Mean frequency of body acceleration jerk
+
 fbodybodyaccjerkmag-std | Std of frequency of body acceleration jerk 
+
 fbodybodygyromag-mean | Mean frequency of magnitude of body gyroscope 
+
 fbodybodygyromag-std | Std of frequency of magnitude of body gyroscope 
+
 fbodybodygyrojerkmag-mean | Mean frequency of magnitude of gyroscope jerk 
+
 fbodybodygyrojerkmag-std | Std frequency of magnitude of gyroscope jerk
 
