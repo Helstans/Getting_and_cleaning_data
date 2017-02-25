@@ -1,0 +1,145 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\fmodern\fcharset0 Courier-Bold;\f1\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid1\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid101\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid2}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720
+
+\f0\b\fs48 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Code Book
+\f1\b0\fs24 \
+\
+
+\f0\b\fs36 Input Data
+\f1\b0\fs24 \
+\
+The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. \
+\
+The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. See 'features_info.txt' for more details. \
+\
+For more information about this dataset contact: activityrecognition@smartlab.ws\
+\
+License:\
+========\
+Use of this dataset in publications must be acknowledged by referencing the following publication [1] \
+\
+[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012\
+\
+This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.\
+\
+Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.\
+\
+\
+
+\f0\b\fs36 Transformations
+\f1\b0\fs24 \
+\
+The run_analysis.R script does the following.\
+\
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls1\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	1.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Merges the training and the test sets to create one data set.\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	2.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Extracts only the measurements on the mean and standard deviation for each measurement.\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	3.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Uses descriptive activity names to name the activities in the data set\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	4.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Appropriately labels the data set with descriptive variable names.\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	5.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.\
+\pard\pardeftab720
+\cf2 \
+
+\f0\b\fs36 Variables
+\f1\b0\fs24 \
+\
+Subject = Subject identification number of the 1:30 volunteers\
+\
+ActivityName = Name of the activity performed by the subjects. List below. \
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls2\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	1.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 WALKING\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	2.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 WALKING_UPSTAIRS\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	3.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 WALKING_DOWNSTAIRS\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	4.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 SITTING\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	5.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 STANDING\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	6.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 LAYING\
+\pard\pardeftab720
+\cf2 \
+Features\
+\
+tbodyacc-mean-x | Mean time for acceleration of body for X\
+tbodyacc-mean-y | Mean time for acceleration of body for Y\
+tbodyacc-mean-z | Mean time for acceleration of body for Z\
+tbodyacc-std-x | Std of time for acceleration of body for X \
+tbodyacc-std-y | Std of time for acceleration of body for Y \
+tbodyacc-std-z | Std of time for acceleration of body for Z \
+tgravityacc-mean-x | Mean time of acceleration of gravity for X\
+tgravityacc-mean-y | Mean time of acceleration of gravity for Y\
+tgravityacc-mean-z | Mean time of acceleration of gravity for Z\
+tgravityacc-std-x | Std of time of acceleration of gravity for X\
+tgravityacc-std-y | Std of time of acceleration of gravity for Y\
+tgravityacc-std-z | Std of time of acceleration of gravity for Z\
+tbodyaccjerk-mean-x | Mean time of body acceleration jerk for X\
+tbodyaccjerk-mean-y | Mean time of body acceleration jerk for Y\
+tbodyaccjerk-mean-z | Mean time of body acceleration jerk for Z\
+tbodyaccjerk-std-x | Std of time of body acceleration jerk for X\
+tbodyaccjerk-std-y | Std of time of body acceleration jerk for Y\
+tbodyaccjerk-std-z | Std of time of body acceleration jerk for Z\
+tbodygyro-mean-x | Mean body gyroscope measurement for X\
+tbodygyro-mean-y | Mean body gyroscope measurement for Y\
+tbodygyro-mean-z | Mean body gyroscope measurement for Z\
+tbodygyro-std-x | Std of body gyroscope measurement for X\
+tbodygyro-std-y | Std of body gyroscope measurement for Y\
+tbodygyro-std-z | Std of body gyroscope measurement for Z\
+tbodygyrojerk-mean-x | Mean jerk signal of body for X\
+tbodygyrojerk-mean-y | Mean jerk signal of body for Y\
+tbodygyrojerk-mean-z | Mean jerk signal of body for Z\
+tbodygyrojerk-std-x | Std of jerk signal of body for X\
+tbodygyrojerk-std-y | Std of jerk signal of body for Y\
+tbodygyrojerk-std-z | Std of jerk signal of body for Z\
+tbodyaccmag-mean | Mean magnitude of body Acc\
+tbodyaccmag-std | Std of magnitude of body Acc\
+tgravityaccmag-mean | Mean gravity acceleration magnitude\
+tgravityaccmag-std | Std of gravity acceleration magnitude\
+tbodyaccjerkmag-mean | Mean magnitude of body acceleration jerk\
+tbodyaccjerkmag-std | Std of magnitude of body acceleration jerk\
+tbodygyromag-mean | Mean magnitude of body gyroscope measurement\
+tbodygyromag-std | Std of magnitude of body gyroscope measurement\
+tbodygyrojerkmag-mean | Mean magnitude of body body gyroscope jerk \
+tbodygyrojerkmag-std | Std of magnitude of body body gyroscope jerk \
+fbodyacc-mean-x | Mean frequency of body acceleration for X\
+fbodyacc-mean-y | Mean frequency of body acceleration for Y\
+fbodyacc-mean-z | Mean frequency of body acceleration for Z\
+fbodyacc-std-x | Std of frequency of body acceleration for X\
+fbodyacc-std-y | Std of frequency of body acceleration for Y\
+fbodyacc-std-z | Std of frequency of body acceleration for Z\
+fbodyaccjerk-mean-x | Mean frequency of body accerlation jerk for X \
+fbodyaccjerk-mean-y | Mean frequency of body accerlation jerk for Y \
+fbodyaccjerk-mean-z | Mean frequency of body accerlation jerk for Z \
+fbodyaccjerk-std-x | Std frequency of body accerlation jerk for X \
+fbodyaccjerk-std-y | Std frequency of body accerlation jerk for Y\
+fbodyaccjerk-std-z | Std frequency of body accerlation jerk for Z \
+fbodygyro-mean-x | Mean frequency of body gyroscope measurement for X\
+fbodygyro-mean-y | Mean frequency of body gyroscope measurement for Y\
+fbodygyro-mean-z | Mean frequency of body gyroscope measurement for Z\
+fbodygyro-std-x | Std frequency of body gyroscope measurement for X\
+fbodygyro-std-y | Std frequency of body gyroscope measurement for Y\
+fbodygyro-std-z | Stad frequency of body gyroscope measurement for Z\
+fbodyaccmag-mean | Mean frequency of body acceleration magnitude\
+fbodyaccmag-std | Std of frequency of body acceleration magnitude\
+fbodybodyaccjerkmag-mean | Mean frequency of body acceleration jerk\
+fbodybodyaccjerkmag-std | Std of frequency of body acceleration jerk \
+fbodybodygyromag-mean | Mean frequency of magnitude of body gyroscope \
+fbodybodygyromag-std | Std of frequency of magnitude of body gyroscope \
+fbodybodygyrojerkmag-mean | Mean frequency of magnitude of gyroscope jerk \
+fbodybodygyrojerkmag-std | Std frequency of magnitude of gyroscope jerk\
+}
